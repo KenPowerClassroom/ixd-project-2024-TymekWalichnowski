@@ -1,0 +1,16 @@
+h1{
+    color:red;
+}
+
+body{
+    display: flex;
+}
+
+#nav a{
+    background-color:bisque;
+}
+
+#nav{
+    min-width: 200px;
+    background-color:bisque;
+}
