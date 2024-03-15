@@ -4,6 +4,7 @@ h1{
 
 body{
     display: flex;
+    font-family: Arial;
 }
 
 #nav a{
@@ -13,4 +14,34 @@ body{
 #nav{
     min-width: 200px;
     background-color:bisque;
+}
+
+/* Table */
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    vertical-align: top;
+}  
+th{
+    border: 1px solid;
+    border-collapse: collapse;
+    
+    
+}
+td{
+    border: 1px solid;
+    border-collapse: collapse;
+    vertical-align: top;
+    
+}
+
+.table-green{
+    background-color: palegreen;
+    
+}
+.table-orange{
+    background-color: palegoldenrod;
+}
+.table-red{
+    background-color: salmon;
 }
